@@ -119,7 +119,9 @@ Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")
 ### Caso 3 — Longitud mínima
 **Entrada:**  
 `Vehiculo("AB", "Toyota", "2020", "Rojo", "Juan Pérez")`
+
 `Vehiculo("ABC123", "Ni", "2021", "Azul", "Carlos Ruiz")`
+
 `Vehiculo("ZZZ999", "Ford", "20", "Gris", "Ana")`
 
 **Resultado:** ❌ Excepción  
