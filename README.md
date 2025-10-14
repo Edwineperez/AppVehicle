@@ -99,7 +99,7 @@ Properties:
 # 🔍 Pruebas de Reglas de Negocio
 
 ### Caso 1 — Placa duplicada y placa única
-**Entrada:** 
+**Entrada:**
 `Vehiculo("ABC123", "Toyota", "2020", "Rojo", "Juan Pérez")`
 
 `Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")`
