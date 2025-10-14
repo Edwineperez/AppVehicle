@@ -54,7 +54,7 @@ En la consola de GlassFish:
 
 **JDBC Connection Pool**
 
-Name: MySQLPool
+Name: myPool
 Datasource Classname: com.mysql.cj.jdbc.MysqlDataSource
 Properties:
 serverName = localhost
