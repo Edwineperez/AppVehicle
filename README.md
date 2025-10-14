@@ -54,6 +54,10 @@ El proyecto sigue una arquitectura **en capas**:
 - Configurar base de datos MySQL:
 
    ```sql
+   CREATE DATABASE garage;
+
+   USE garage;
+
    CREATE TABLE vehiculos (
      id INT AUTO_INCREMENT PRIMARY KEY,
      placa VARCHAR(20) NOT NULL,
