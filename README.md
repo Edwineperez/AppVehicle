@@ -52,6 +52,7 @@ El proyecto sigue una arquitectura **en capas**:
 ## 🚀 Despliegue
 
 - Configurar base de datos MySQL:
+
    ```sql
    CREATE TABLE vehiculos (
      id INT AUTO_INCREMENT PRIMARY KEY,
