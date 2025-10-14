@@ -100,10 +100,9 @@ Properties:
 
 ### Caso 1 — Placa duplicada y placa única
 **Entrada:**
+`Vehiculo("ABC123", "Toyota", "2020", "Rojo", "Juan Pérez")`
 
-Vehiculo("ABC123", "Toyota", "2020", "Rojo", "Juan Pérez")
-
-Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")
+`Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")`
 
 **Resultado esperado:** ❌ Excepción  
 > "Ya existe un vehículo con la placa ABC123"
