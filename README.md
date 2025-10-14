@@ -54,19 +54,20 @@ En la consola de GlassFish:
 
 **JDBC Connection Pool**
 
-Name: myPool
-Datasource Classname: com.mysql.cj.jdbc.MysqlDataSource
+- Name: myPool
+- Datasource Classname: com.mysql.cj.jdbc.MysqlDataSource
+
 Properties:
-serverName = localhost
-portNumber = 3306
-databaseName = garage
-user = root
-password = (tu clave)
-URL = jdbc:mysql://localhost:3306/garage?useSSL=false&serverTimezone=UTC
+- serverName = localhost
+- portNumber = 3306
+- databaseName = garage
+- user = root
+- password = (tu clave)
+- URL = jdbc:mysql://localhost:3306/garage?useSSL=false&serverTimezone=UTC
 
 **JDBC Resource**
-JNDI Name: jdbc/myPool
-Pool Name: myPool
+- JNDI Name: jdbc/myPool
+- Pool Name: myPool
 
 ---
 
