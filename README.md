@@ -126,7 +126,9 @@ Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")
 
 **Resultado:** ❌ Excepción  
 > "La placa debe tener al menos 3 caracteres."
+
 > "La marca debe tener al menos 3 caracteres."
+
 > "El modelo debe tener al menos 3 caracteres."
 
 ---
