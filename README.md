@@ -49,6 +49,18 @@ El proyecto sigue una arquitectura **en capas**:
 - MySQL 8 o superior  
 - Conector `mysql-connector-j-9.4.0.jar` (copiado en `glassfish/domains/domain1/lib/`)
 
+**Despliegue**
+Configurar base de datos MySQL:
+
+CREATE TABLE vehiculos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  placa VARCHAR(20) NOT NULL,
+  marca VARCHAR(30) NOT NULL,
+  modelo VARCHAR(30) NOT NULL,
+  color VARCHAR(20),
+  propietario VARCHAR(50) NOT NULL
+);
+
 ### 🔧 Configuración del DataSource
 En la consola de GlassFish:
 
