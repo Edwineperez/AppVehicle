@@ -100,6 +100,7 @@ Properties:
 
 ### Caso 1 — Placa duplicada y placa única
 **Entrada:**
+
 `Vehiculo("ABC123", "Toyota", "2020", "Rojo", "Juan Pérez")`
 
 `Vehiculo("ABC123", "Nissan", "2021", "Azul", "Carlos Ruiz")`
