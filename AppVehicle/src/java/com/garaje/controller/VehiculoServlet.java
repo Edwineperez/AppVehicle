@@ -28,8 +28,6 @@ import java.util.List;
  * - Vista → vehiculos.jsp / formVehiculo.jsp
  * - Controlador → VehiculoServlet.java
  *
- * Autor: Edwin
- * Fecha: Octubre 2025
  */
 @WebServlet("/vehiculos")
 public class VehiculoServlet extends HttpServlet {
@@ -166,3 +164,4 @@ public class VehiculoServlet extends HttpServlet {
         }
     }
 }
+
