@@ -199,5 +199,7 @@ Properties:
 
 
 ## 👩‍💻 Autores
-- **Edwin Pérez**  
+- **Edwin Pérez**
+- **Jefferson Prieto**
+- **Sebastian Rodriguez** 
   Estudiante de Tecnología en Desarrollo de Sistemas Informáticos.
