@@ -1,15 +1,15 @@
-# 🚗 Taller Garaje — Sistema de Gestión de Vehículos
+# Taller Garaje — Sistema de Gestión de Vehículos
 
-## 📘 Descripción general
+## Descripción general
 Aplicación web desarrollada en **Java EE (Jakarta)** utilizando **JSP**, **Servlets** y **GlassFish** con conexión a base de datos **MySQL** mediante un **DataSource (jdbc/myPool)**.
 
 El sistema permite realizar operaciones CRUD sobre vehículos registrados, aplicando reglas de negocio y validaciones en la capa de fachada (`VehiculoFacade`).
 
 ---
 
-## 🧱 Arquitectura general
+## Arquitectura general
 
-### 🧩 Capas
+### Capas
 El proyecto sigue una arquitectura **en capas**:
 
 | Capa | Paquete | Descripción |
@@ -20,7 +20,7 @@ El proyecto sigue una arquitectura **en capas**:
 | Controlador | `com.garaje.controller` | Servlet que recibe las peticiones y actúa como intermediario entre la vista y la lógica. |
 | Vista | `src/main/webapp` | JSPs para listar y registrar vehículos (`vehiculos.jsp`, `formVehiculo.jsp`). |
 
-### ⚙️ Flujo general
+### Flujo general
 1. El usuario ingresa a `vehiculos.jsp`.  
 2. El `VehiculoServlet` procesa las acciones (`new`, `edit`, `delete`).  
 3. La capa `VehiculoFacade` valida las reglas de negocio.  
@@ -29,7 +29,7 @@ El proyecto sigue una arquitectura **en capas**:
 
 ---
 
-## ✍️ Convenciones de nombres
+## Convenciones de nombres
 
 | Tipo de elemento | Convención usada |
 |------------------|------------------|
@@ -40,16 +40,16 @@ El proyecto sigue una arquitectura **en capas**:
 
 ---
 
-## ⚙️ Ejecución del sistema
+## Ejecución del sistema
 
-### 🧩 Requisitos previos
+### Requisitos previos
 - Java JDK 17  
 - Apache NetBeans
 - GlassFish 7  
 - MySQL 8 o superior  
 - Conector `mysql-connector-j-9.4.0.jar` (copiado en `glassfish/domains/domain1/lib/`)
 
-## 🚀 Despliegue
+## Despliegue
 
 - Configurar base de datos MySQL:
 
@@ -67,7 +67,7 @@ El proyecto sigue una arquitectura **en capas**:
      propietario VARCHAR(50) NOT NULL
    ); 
 
-### 🔧 Configuración del DataSource
+### Configuración del DataSource
 En la consola de GlassFish:
 
 **JDBC Connection Pool**
@@ -89,15 +89,15 @@ Properties:
 
 ---
 
-### ▶️ Ejecución
+### Ejecución
 1. Iniciar GlassFish (`domain1`).  
 2. En NetBeans → Ejecutar proyecto.  
 3. Acceder a:  
-   👉 http://localhost:8080/AppVehicle/vehiculos
+   - http://localhost:8080/AppVehicle/vehiculos
 
 ---
 
-## 🧩 Reglas de negocio implementadas
+## Reglas de negocio implementadas
 
 | # | Regla | Descripción |
 |---|--------|-------------|
@@ -114,7 +114,7 @@ Properties:
 
 ---
 
-# 🔍 Pruebas de Reglas de Negocio
+# Pruebas de Reglas de Negocio
 
 ### Caso 1 — Placa duplicada y placa única
 **Entrada:**
@@ -198,7 +198,7 @@ Properties:
 > "Entrada inválida detectada (posible SQL Injection)."
 
 
-## 👩‍💻 Autores
+## Autores
 - **Edwin Pérez**
 - **Jefferson Prieto**
 - **Sebastian Rodriguez** 
